@@ -1,0 +1,44 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Secrets and local config (never commit these)
+.env
+.env.*
+!.env.example
+
+# Node / React (phase 4)
+node_modules/
+frontend/dist/
+frontend/build/
+.vite/
+npm-debug.log*
+
+# Local data and uploads
+*.sqlite3
+*.db
+uploads/
+data/
+postgres-data/
+
+# Docker overrides
+docker-compose.override.yml
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
